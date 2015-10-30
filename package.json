@@ -1,0 +1,31 @@
+{
+  "name": "handpage",
+  "version": "0.0.9-beta.4",
+  "description": "A lightweight scaffolding tool for webapps.",
+  "main": "lib/handpage.js",
+  "bin": {
+    "handpage": "bin/main.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cheerio": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanheng/handpage.git"
+  },
+  "keywords": [
+    "html5",
+    "lightweight",
+    "mobile",
+    "webapp",
+    "framework"
+  ],
+  "author": "tanheng@is-keen.com",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

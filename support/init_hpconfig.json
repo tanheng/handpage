@@ -1,0 +1,37 @@
+{
+    /*
+     * 应用名称，版本，描述，以及作者。这些信息将写入package.json文件
+     */
+    "name": "myApp",
+    "version": "1.0.0",
+    "description": "A webapp powered by handpage.",
+    "author": "somebody@some.where",
+
+    /*
+     * http服务器监听端口
+     */
+    "port": 80,
+    /*
+     * 各目录对应的url路由
+     */
+    "routes": [
+        ["src/page", "/"],
+        ["asset", "/"],
+        ["src/api", "/"]
+    ],
+
+    /*
+     * mongo数据库连接字符串
+     */
+    "db": "mongodb://user:pass@host:port/database",
+
+    /* 插件配置，每一项应为：
+     *  {
+     *      "name": "plugin-name-on-npm",
+     *      "version": "semantic-versioning-string",
+     *      "config": { ...any thing specific to plugin...}
+     *  }
+     * 的结构
+     */
+    "plugins": []
+}
