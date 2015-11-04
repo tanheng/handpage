@@ -77,8 +77,8 @@ function write_package_json(){
     pjconfig.main = config.main || 'server.js';
     pjconfig.dependencies = {
         "handpage": "*",
-        "mongodb": ">2.0",
-        "express": ">4.8.0"
+        "mongodb": ">=2.0",
+        "express": ">=4.8.0"
     };
 
     for (i = 0; i < config.plugins.length; i++) {

@@ -1,6 +1,6 @@
 {
   "name": "handpage",
-  "version": "0.0.9-beta.4",
+  "version": "0.1.0",
   "description": "A lightweight scaffolding tool for webapps.",
   "main": "lib/handpage.js",
   "bin": {
